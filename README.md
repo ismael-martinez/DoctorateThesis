@@ -1,3 +1,9 @@
 # Scalable and Robust Fog-Computing Design & Dimensioning in Dynamic, Trustless Smart Cities
 
 ## by Ismael Sanchez-Martinez
+
+The concept of a Smart City relies on the full interconnectivity of several industries towards the amelioration of resident lifestyles. This is made possible by the growth and wide-spread use of the Internet of Things (IoT) -- a large network of data collection devices throughout multiple applications. However, most IoT devices have few resources, and rely on external servers to process and store the collected data. Due to high congestion and distance, Cloud data centres may cause high latency in their IoT response, which may be unacceptable in certain IoT applications. Instead, fog-computing has been proposed as a highly-virtualized heterogeneous layer of servers on the network edge, resulting in low-latency IoT data processing.
+
+Current contributions in fog-computing assume a fog infrastructure is already in-place. Furthermore, each contribution requires different characteristics on the fog infrastructure. This thesis formulates a scalable and modifiable design \& dimensioning scheme for a generalized fog infrastructure. This is modeled and solved as a mixed-integer linear program (MILP), and relaxed using several techniques such as Column Generation and Benders Decomposition.
+Many concerns on the fog network performance are considered and addressed, such as high IoT traffic, network congestion, and fog node malfunctions. 
+Dynamic fog nodes, such as on-demand fog nodes and mobile fog-enabled unmanned aerial vehicles (fog-UAVs) are integrated into current design \& dimensioning models to add flexibility and robustness to the network. A system based on blockchain and zero-knowledge proofs is introduced to enforce integrity on the fog nodes. The result is a scalable design \& dimensioning scheme for a robust, flexible, and reliable fog infrastructure in a dynamic and malicious IoT-fog environment.

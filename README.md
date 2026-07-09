@@ -1,6 +1,6 @@
 # Scalable and Robust Fog-Computing Design & Dimensioning in Dynamic, Trustless Smart Cities
 
-## by Ismael Sanchez-Martinez
+## by Ismael Sanchez Martinez
 
 The concept of a Smart City relies on the full interconnectivity of several industries towards the amelioration of resident lifestyles. This is made possible by the growth and wide-spread use of the Internet of Things (IoT) -- a large network of data collection devices throughout multiple applications. However, most IoT devices have few resources, and rely on external servers to process and store the collected data. Due to high congestion and distance, Cloud data centres may cause high latency in their IoT response, which may be unacceptable in certain IoT applications. Instead, fog-computing has been proposed as a highly-virtualized heterogeneous layer of servers on the network edge, resulting in low-latency IoT data processing.
 
